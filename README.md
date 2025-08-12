@@ -175,7 +175,7 @@ Each feature’s page uses small widgets from its `widgets/` folder:
 - Questions: `QuestionsLoader`, `QuestionsErrorView`, `QuestionsList`, `QuestionListItem`
 - Login: `LoginTextField`, `LoginErrorMessage`, `LoginSubmitButton`
 
-Tip: A feature can also have a `common/` (or `shared/`) folder for widgets reusable across features (e.g., a generic loader). In this repo, the Questions feature includes a loader; you can promote it to a shared/common folder later if multiple features need it.
+note: A project can also have a `common/` (or `shared/`) folder for widgets reusable across features (e.g., a generic loader). In this repo, the Questions feature includes a loader; you can promote it to a shared/common folder later if multiple features need it.
 
 ## Networking
 
